@@ -4,3 +4,14 @@ pre-commit
 
 # LLM
 ollama
+
+# LangChain
+langchain
+langchain-community
+langchainhub
+langchain-openai
+
+# Tools
+pypdf
+python-dotenv
+faiss-cpu

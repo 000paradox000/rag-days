@@ -31,3 +31,10 @@ run-ollama_chat-with-mistral:
 
 run-ollama_chat-with-neuralchat:
 	python src/ollama_chat/main.py -m "neural-chat"
+
+
+# =============================================================================
+# RAG with OpenAI
+
+run-rag-with-openai:
+	python src/rag_openai/main.py

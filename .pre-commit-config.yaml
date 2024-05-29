@@ -23,7 +23,7 @@ repos:
     # Check files size to add only 500ko max
     - id: check-added-large-files
       args:
-          - '--maxkb=2000'
+          - '--maxkb=20000'
     # Detect private keys
     - id: detect-private-key
   # Leave black at the bottom so all touchups are done before it is run.
