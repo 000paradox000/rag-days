@@ -39,3 +39,13 @@ Source code: src/rag_openai
 ```shell
 make run-rag-with-openai
 ```
+
+## LangChain Quickstart
+
+https://python.langchain.com/v0.1/docs/get_started/quickstart/
+
+Source code: src/langchain_quickstart
+
+```shell
+make run-langchain-quickstart
+```
