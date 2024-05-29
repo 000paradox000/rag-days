@@ -1,0 +1,6 @@
+# dev
+ipython
+pre-commit
+
+# LLM
+ollama

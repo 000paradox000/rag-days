@@ -1,0 +1,33 @@
+# =============================================================================
+# Common
+
+install-requirements:
+	pip install -r requirements.txt
+
+lint:
+	pre-commit run --all-files
+	pre-commit run --all-files
+
+lint-update:
+	pre-commit autoupdate
+
+console:
+	ipython
+
+# =============================================================================
+# Ollama
+
+run-ollama_chat-with-llama3:
+	python src/ollama_chat/main.py
+
+run-ollama_chat-with-gemma:
+	python src/ollama_chat/main.py -m gemma:2b
+
+run-ollama_chat-with-phi3mini:
+	python src/ollama_chat/main.py -m phi3
+
+run-ollama_chat-with-mistral:
+	python src/ollama_chat/main.py -m mistral
+
+run-ollama_chat-with-neuralchat:
+	python src/ollama_chat/main.py -m "neural-chat"
